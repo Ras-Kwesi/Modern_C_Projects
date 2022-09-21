@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void){
+  // Hello Someone  program
+
+  char name[50];
+
+  printf(" What is your name: ");
+  scanf("%s",name);
+
+  printF("Hello %s", name);
+  return 0;
+}
